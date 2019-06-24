@@ -5,9 +5,9 @@
     <classes>
       <class name="bac_pack.Login_Roles">
         <methods>
-          <include name="loginvalidation" invocation-numbers="1"/>
-          <include name="launchDriver"/>
-          <include name="closeDriver"/>
+          <include name="teardown"/>
+          <include name="loginvalidation" invocation-numbers="2"/>
+          <include name="Login_Tagwritervalidation"/>
         </methods>
       </class> <!-- bac_pack.Login_Roles -->
     </classes>

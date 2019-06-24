@@ -8,6 +8,12 @@
   <name>BACWebApp</name>
   <url>http://maven.apache.org</url>
    <build>
+     <resources>                                 <!--  configuring log4j into maven project  -->
+            <resource>
+        <directory>src/main/java/resources</directory>
+        <filtering>true</filtering>
+      </resource>
+      </resources> 
    <plugins>       <!-- Integrate testng file into pom.xml file by using sre-fire plugin -->
             <plugin>
             <groupId>org.apache.maven.plugins</groupId>

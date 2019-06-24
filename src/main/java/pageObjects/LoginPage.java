@@ -18,6 +18,8 @@ public class LoginPage extends Base {
 	@FindBy(id="login_submit")
 	WebElement submitbtn;
 	
+	@FindBy(xpath="//div[@class='alert alert-dismissible red fade in']//span")
+	WebElement error;
 	
 	public WebElement EmailId()
 	{
@@ -33,6 +35,12 @@ public class LoginPage extends Base {
 	{
 		return submitbtn;
 	}
+	
+	public WebElement Errorvali()
+	{
+		return error;
+	}
+	
 
 	public LoginPage(WebDriver driver)
 	{

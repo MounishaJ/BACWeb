@@ -21,7 +21,7 @@ public class Base {
 	public Properties Prop() throws IOException
 		{
 		prop=new Properties();     // responsible to pull values from data.properties file
-		FileInputStream fis=new FileInputStream(".\\src\\main\\java\\resources\\data.properties");
+		FileInputStream fis=new FileInputStream("F:\\Automation-Selenium\\BACWebApp\\src\\main\\java\\resources\\data.properties");
 		
 		prop.load(fis);  //load (data.properties) file into properties object
 		return prop;		

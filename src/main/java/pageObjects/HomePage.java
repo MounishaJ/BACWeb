@@ -15,7 +15,7 @@ public class HomePage extends Base
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath="//div[@class='user_data']//span[@class='plan_name']")
+	@FindBy(xpath="//span[@class='plan_name']")
 	WebElement role;
 	
 	public WebElement validateRole()
