@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="bac_pack.Login_Roles">
+      <class name="bac_pack.Common_Functionalities">
         <methods>
-          <include name="teardown"/>
-          <include name="loginvalidation" invocation-numbers="2"/>
-          <include name="Login_Tagwritervalidation"/>
+          <include name="search"/>
         </methods>
-      </class> <!-- bac_pack.Login_Roles -->
+      </class> <!-- bac_pack.Common_Functionalities -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -4,6 +4,7 @@
   <test thread-count="1" verbose="1" name="Test" parallel="false">
     <classes>
        <class name="bac_pack.Login_Roles"/>
+       <class name="bac_pack.Customer_Module"/>
        
     </classes>
   </test> <!-- Test -->

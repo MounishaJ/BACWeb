@@ -9,14 +9,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.testng.annotations.DataProvider;
+
 
 public class Base {
 
 
 	public static WebDriver driver;
 	public static Properties prop;
-	
+	public static String data[]= {"Dashboard","Customers","Trucks","Tags","Products","Yards","Users","Reports"};
 	
 	public Properties Prop() throws IOException
 		{
