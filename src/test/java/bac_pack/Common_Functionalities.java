@@ -38,7 +38,7 @@ public class Common_Functionalities extends Base {
 			//Assert.assertEquals(cp.Searchedword().getText() ,cp.search().getAttribute("value"));
 			System.out.println(cp.Searchedword().getText());
 			as.assertEquals(cp.Searchedword().getText() ,cp.search().getAttribute("value"));
-			log.info(hp.Tabs().get(i).getText()+" "+"Module  validated Search functionality");
+			log.info(hp.Tabs().get(i).getText()+" "+"Module validated Search functionality");
 			as.assertAll();
 					
 		}
@@ -55,13 +55,12 @@ public class Common_Functionalities extends Base {
 		
 		
 		/* search seperate method
-	 tabclick=>title verify separate method
+	 		
 			 testng soft assert
 			 assertion=>after checking how to print the no data available msg through assertion
-			 1215-uma
-			 150-leela
-			 200-150=50-chandra
-			 70-water
+			 
+			 
+			
 */
 		
 
