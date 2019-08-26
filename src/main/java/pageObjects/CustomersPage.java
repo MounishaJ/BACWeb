@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,9 +20,34 @@ public class CustomersPage extends Base
 	WebElement searchword;
 
 	
-      
+	@FindBy(xpath="//span[contains(text(),'Customers')]")
+	WebElement customertab;
+	public WebElement customer_Tab()
+	{
+		
+		return customertab;
+	}
 
-   
+	@FindBy(css = "span[class^='paginate_button next icon-right-arrow x_small']")
+	WebElement arrow;
+	public WebElement Arrow()
+	{
+		return arrow;
+	}
+	public static void scrolldown()
+	{
+	JavascriptExecutor jse = (JavascriptExecutor)driver;
+	jse.executeScript("window.scrollBy(0,350)", "");
+
+	}
+	
+	public static void scrollup()
+	{
+		JavascriptExecutor jse = (JavascriptExecutor)driver;
+		//jse.executeScript("arguments[0].scrollIntoView(true);",element);
+		
+		jse.executeScript("window.scrollBy(0,-300)", "");
+	}
 
 	public WebElement search()
 	{

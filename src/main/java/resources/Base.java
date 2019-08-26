@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -54,6 +55,19 @@ public class Base {
 	
 		return driver;
 	}
+	public static void scrolldown()
+	{
+	JavascriptExecutor jse = (JavascriptExecutor)driver;
+	jse.executeScript("window.scrollBy(0,350)", "");
 
+	}
+	
+	public static void scrollup()
+	{
+		JavascriptExecutor jse = (JavascriptExecutor)driver;
+		//jse.executeScript("arguments[0].scrollIntoView(true);",element);
+		
+		jse.executeScript("window.scrollBy(0,-300)", "");
+	}
 
 }

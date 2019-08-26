@@ -11,7 +11,7 @@ public class Customer_Module extends Base  {
 	Common_Functionalities cf=new Common_Functionalities();
 	Login_Functionality lf=new Login_Functionality();
 	
-
+	@Test
 	public void testSearchfunctionality() throws IOException, InterruptedException
 	{
 		 driver=lf.Login_SuperAdminvalidation();
