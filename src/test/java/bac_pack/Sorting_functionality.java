@@ -10,6 +10,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -55,7 +58,8 @@ public class Sorting_functionality extends Base {
 		{
 			originaldesc=data(i);
 			
-			driver.findElements(By.xpath("//thead/tr/th")).get(i).click();
+			Thread.sleep(2000);
+			driver.findElements(By.xpath("//thead/tr/th")).get(i).click();   
 			Thread.sleep(2000);
 			while (true) {
 				CustomersPage p = new CustomersPage(driver);
@@ -124,5 +128,6 @@ public class Sorting_functionality extends Base {
 	return Actual;
 	}
 	
+
 }
 

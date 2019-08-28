@@ -3,8 +3,11 @@ package bac_pack;
 import java.io.IOException;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 import org.apache.logging.log4j.*;
 import org.openqa.selenium.WebDriver;
 
@@ -20,7 +23,7 @@ public class Login_Functionality extends Base {
 	 public static Logger log = LogManager.getLogger(Login_Functionality.class.getName());
 	 
 		 	
-		//@Test(priority = 1, dataProvider = "getData1")
+		@Test(priority = 1, dataProvider = "getData1")
 	public void loginvalidation(String Username,String pwd,String text) throws IOException
 	{
 		driver= initializeDriver();
@@ -92,12 +95,7 @@ public class Login_Functionality extends Base {
 	}
 	
 	
-	@AfterMethod
-	public void teardown()
-	{
-		driver.close();
-	}
-
+	
 
 
 @DataProvider

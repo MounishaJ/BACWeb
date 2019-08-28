@@ -6,6 +6,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -32,14 +34,14 @@ public class Common_Functionalities extends Base {
 			if (i==3)continue;
 			clickAllPagesTitle(i);
 				 
-			cp.search().sendKeys("122222222222",Keys.ENTER);	
+			//cp.search().sendKeys("122222222222",Keys.ENTER);	
 			
-			//cp.search().sendKeys(cp.Searchedword().getText(),Keys.ENTER);	
-			//Assert.assertEquals(cp.Searchedword().getText() ,cp.search().getAttribute("value"));
-			System.out.println(cp.Searchedword().getText());
-			as.assertEquals(cp.Searchedword().getText() ,cp.search().getAttribute("value"));
+			cp.search().sendKeys(cp.Searchedword().getText(),Keys.ENTER);	
+			Assert.assertEquals(cp.Searchedword().getText() ,cp.search().getAttribute("value"));
+			//System.out.println(cp.Searchedword().getText());
+			//as.assertEquals(cp.Searchedword().getText() ,cp.search().getAttribute("value"));
 			log.info(hp.Tabs().get(i).getText()+" "+"Module validated Search functionality");
-			as.assertAll();
+			//as.assertAll();
 					
 		}
 		}
@@ -62,6 +64,7 @@ public class Common_Functionalities extends Base {
 			 
 			
 */
-		
+	
+	
 
 }

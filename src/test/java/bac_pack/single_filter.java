@@ -14,6 +14,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -53,9 +55,9 @@ public class single_filter extends Base {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//span[@class='add icon-plus']")).click();
 		String label=driver.findElement(By.xpath("//div[@class='fil_heading']")).getText();
-		//Object label1=label;
-		//System.out.println(label);
-		Select registerstatus=new Select(driver.findElement(By.id("filter_type")));
+		Thread.sleep(2000);
+
+		Select registerstatus=new Select(driver.findElement(By.id("filter_type"))); 
 		registerstatus.selectByVisibleText("Registered");
 		driver.findElement(By.xpath("//input[@id='filter_del_submit']")).click();
 		log.info("Successfully applied the Register status filter");
@@ -132,8 +134,7 @@ public class single_filter extends Base {
 			log.info("verified count values");
 								 
 		}
-		
-		}
+			}
 /*
  * if(countvalue.equals(Actual.size())) { System.out.println("count matches"); }
  * else System.out.println("not matched count value");

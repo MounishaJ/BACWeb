@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite"  >
+<suite name="Suite">
   <test thread-count="1" verbose="1" name="Test" parallel="false">
     <classes>
-       <class name="bac_pack.Login_Roles"/>
-       <class name="bac_pack.Customer_Module"/>
-       
+         <class name="bac_pack.Sorting_functionality"/>
+         <class name="bac_pack.single_filter"/>
+         <class name="bac_pack.Login_Functionality"/>
+        <class name="bac_pack.Common_Functionalities"/>
+          <class name="bac_pack.Customer_Module">
+	       <methods>
+	       <exclude name="testSearchfunctionality"/>
+	       </methods>
+	       </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
