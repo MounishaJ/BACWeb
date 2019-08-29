@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -57,8 +58,10 @@ public class single_filter extends Base {
 		String label=driver.findElement(By.xpath("//div[@class='fil_heading']")).getText();
 		Thread.sleep(2000);
 
-		Select registerstatus=new Select(driver.findElement(By.id("filter_type"))); 
+		Select registerstatus=new Select(driver.findElement(By.xpath("//select[@id='filter_type']"))); 
 		registerstatus.selectByVisibleText("Registered");
+	
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//input[@id='filter_del_submit']")).click();
 		log.info("Successfully applied the Register status filter");
 		
