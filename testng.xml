@@ -4,7 +4,7 @@
   <test thread-count="1" verbose="1" name="Test" parallel="false">
     <classes>
          <class name="bac_pack.Sorting_functionality"/>
-         <class name="bac_pack.single_filter"/>
+         <class name="bac_pack.Filter"/>
          <class name="bac_pack.Login_Functionality"/>
         <class name="bac_pack.Common_Functionalities"/>
           <class name="bac_pack.Customer_Module">

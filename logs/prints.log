@@ -1,155 +1,104 @@
-2019-08-28 14:28:25,185 [bac_pack.single_filter.initialize] - Successfully launched URL
-2019-08-28 14:28:26,980 [bac_pack.single_filter.initialize] - Successfully login into the application
-2019-08-28 14:28:40,142 [bac_pack.single_filter.initialize] - verifiled login page
-2019-08-28 14:30:31,996 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Driver initialized successfully
-2019-08-28 14:30:39,161 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - successfully launched URL
-2019-08-28 14:30:39,732 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Entered email address
-2019-08-28 14:30:39,901 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Entered password
-2019-08-28 14:30:40,133 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Hit the login button
-2019-08-28 14:30:47,488 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Successfully validate the Role
-2019-08-28 14:30:53,682 [bac_pack.Common_Functionalities.search] - Customers Module validated Search functionality
-2019-08-28 14:30:58,640 [bac_pack.Common_Functionalities.search] - Trucks Module validated Search functionality
-2019-08-28 14:31:04,038 [bac_pack.Common_Functionalities.search] - Products Module validated Search functionality
-2019-08-28 14:31:08,670 [bac_pack.Common_Functionalities.search] - Yards Module validated Search functionality
-2019-08-28 14:31:14,615 [bac_pack.Common_Functionalities.search] - Users Module validated Search functionality
-2019-08-28 14:31:31,594 [bac_pack.Login_Functionality.loginvalidation] - Driver initialized successfully
-2019-08-28 14:31:46,352 [bac_pack.Login_Functionality.loginvalidation] - successfully launched URL
-2019-08-28 14:31:46,683 [bac_pack.Login_Functionality.loginvalidation] - Entered email address
-2019-08-28 14:31:46,882 [bac_pack.Login_Functionality.loginvalidation] - Entered password
-2019-08-28 14:31:47,041 [bac_pack.Login_Functionality.loginvalidation] - Hit the login button
-2019-08-28 14:31:56,586 [bac_pack.Login_Functionality.loginvalidation] - Successfully validate the Role
-2019-08-28 14:32:07,057 [bac_pack.Login_Functionality.loginvalidation] - Driver initialized successfully
-2019-08-28 14:32:22,888 [bac_pack.Login_Functionality.loginvalidation] - successfully launched URL
-2019-08-28 14:32:23,184 [bac_pack.Login_Functionality.loginvalidation] - Entered email address
-2019-08-28 14:32:23,360 [bac_pack.Login_Functionality.loginvalidation] - Entered password
-2019-08-28 14:32:23,518 [bac_pack.Login_Functionality.loginvalidation] - Hit the login button
-2019-08-28 14:32:42,190 [bac_pack.Login_Functionality.loginvalidation] - Successfully validate the Role
-2019-08-29 15:34:23,148 [bac_pack.single_filter.initialize] - Successfully launched URL
-2019-08-29 15:34:25,012 [bac_pack.single_filter.initialize] - Successfully login into the application
-2019-08-29 15:34:37,799 [bac_pack.single_filter.initialize] - verifiled login page
-2019-08-29 15:38:24,995 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Driver initialized successfully
-2019-08-29 15:38:30,850 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - successfully launched URL
-2019-08-29 15:38:31,285 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Entered email address
-2019-08-29 15:38:31,549 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Entered password
-2019-08-29 15:38:31,768 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Hit the login button
-2019-08-29 15:38:39,016 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Successfully validate the Role
-2019-08-29 15:38:44,590 [bac_pack.Common_Functionalities.search] - Customers Module validated Search functionality
-2019-08-29 15:38:49,643 [bac_pack.Common_Functionalities.search] - Trucks Module validated Search functionality
-2019-08-29 15:38:55,194 [bac_pack.Common_Functionalities.search] - Products Module validated Search functionality
-2019-08-29 15:39:00,978 [bac_pack.Common_Functionalities.search] - Yards Module validated Search functionality
-2019-08-29 15:39:06,444 [bac_pack.Common_Functionalities.search] - Users Module validated Search functionality
-2019-08-29 15:39:23,740 [bac_pack.Login_Functionality.loginvalidation] - Driver initialized successfully
-2019-08-29 15:39:30,512 [bac_pack.Login_Functionality.loginvalidation] - successfully launched URL
-2019-08-29 15:39:30,918 [bac_pack.Login_Functionality.loginvalidation] - Entered email address
-2019-08-29 15:39:31,148 [bac_pack.Login_Functionality.loginvalidation] - Entered password
-2019-08-29 15:39:31,334 [bac_pack.Login_Functionality.loginvalidation] - Hit the login button
-2019-08-29 15:39:37,793 [bac_pack.Login_Functionality.loginvalidation] - Successfully validate the Role
-2019-08-29 15:39:41,172 [bac_pack.Login_Functionality.loginvalidation] - Driver initialized successfully
-2019-08-29 15:39:48,345 [bac_pack.Login_Functionality.loginvalidation] - successfully launched URL
-2019-08-29 15:39:48,848 [bac_pack.Login_Functionality.loginvalidation] - Entered email address
-2019-08-29 15:39:49,028 [bac_pack.Login_Functionality.loginvalidation] - Entered password
-2019-08-29 15:39:49,251 [bac_pack.Login_Functionality.loginvalidation] - Hit the login button
-2019-08-29 15:40:03,722 [bac_pack.Login_Functionality.loginvalidation] - Successfully validate the Role
-2019-08-29 15:44:03,432 [bac_pack.single_filter.initialize] - Successfully launched URL
-2019-08-29 15:44:05,345 [bac_pack.single_filter.initialize] - Successfully login into the application
-2019-08-29 15:44:17,125 [bac_pack.single_filter.initialize] - verifiled login page
-2019-08-29 15:44:21,807 [bac_pack.single_filter.singlefilter] - Successfully applied the Register status filter
-2019-08-29 17:07:24,670 [bac_pack.single_filter.initialize] - Successfully launched URL
-2019-08-29 17:07:26,481 [bac_pack.single_filter.initialize] - Successfully login into the application
-2019-08-29 17:07:41,986 [bac_pack.single_filter.initialize] - verifiled login page
-2019-08-29 17:07:46,730 [bac_pack.single_filter.singlefilter] - Successfully applied the Register status filter
-2019-08-29 17:08:51,529 [bac_pack.single_filter.singlefilter] - Successfully stored all records into Arraylist
-2019-08-29 17:08:51,623 [bac_pack.single_filter.singlefilter] - verified filtered records
-2019-08-29 17:08:51,623 [bac_pack.single_filter.singlefilter] - verified count values
-2019-08-29 17:10:17,163 [bac_pack.single_filter.initialize] - Successfully launched URL
-2019-08-29 17:10:19,042 [bac_pack.single_filter.initialize] - Successfully login into the application
-2019-08-29 17:10:32,933 [bac_pack.single_filter.initialize] - verifiled login page
-2019-08-29 17:14:26,757 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Driver initialized successfully
-2019-08-29 17:14:32,121 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - successfully launched URL
-2019-08-29 17:14:32,442 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Entered email address
-2019-08-29 17:14:32,592 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Entered password
-2019-08-29 17:14:32,738 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Hit the login button
-2019-08-29 17:14:39,656 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Successfully validate the Role
-2019-08-29 17:14:45,847 [bac_pack.Common_Functionalities.search] - Customers Module validated Search functionality
-2019-08-29 17:14:50,943 [bac_pack.Common_Functionalities.search] - Trucks Module validated Search functionality
-2019-08-29 17:14:56,796 [bac_pack.Common_Functionalities.search] - Products Module validated Search functionality
-2019-08-29 17:15:02,498 [bac_pack.Common_Functionalities.search] - Yards Module validated Search functionality
-2019-08-29 17:15:07,781 [bac_pack.Common_Functionalities.search] - Users Module validated Search functionality
-2019-08-29 17:15:24,814 [bac_pack.Login_Functionality.loginvalidation] - Driver initialized successfully
-2019-08-29 17:15:36,068 [bac_pack.Login_Functionality.loginvalidation] - successfully launched URL
-2019-08-29 17:15:36,433 [bac_pack.Login_Functionality.loginvalidation] - Entered email address
-2019-08-29 17:15:36,676 [bac_pack.Login_Functionality.loginvalidation] - Entered password
-2019-08-29 17:15:36,840 [bac_pack.Login_Functionality.loginvalidation] - Hit the login button
-2019-08-29 17:15:47,806 [bac_pack.Login_Functionality.loginvalidation] - Successfully validate the Role
-2019-08-29 17:15:50,314 [bac_pack.Login_Functionality.loginvalidation] - Driver initialized successfully
-2019-08-29 17:15:56,417 [bac_pack.Login_Functionality.loginvalidation] - successfully launched URL
-2019-08-29 17:15:56,808 [bac_pack.Login_Functionality.loginvalidation] - Entered email address
-2019-08-29 17:15:57,066 [bac_pack.Login_Functionality.loginvalidation] - Entered password
-2019-08-29 17:15:57,207 [bac_pack.Login_Functionality.loginvalidation] - Hit the login button
-2019-08-29 17:16:03,620 [bac_pack.Login_Functionality.loginvalidation] - Successfully validate the Role
-2019-08-29 17:21:38,590 [bac_pack.single_filter.initialize] - Successfully launched URL
-2019-08-29 17:21:40,507 [bac_pack.single_filter.initialize] - Successfully login into the application
-2019-08-29 17:21:52,467 [bac_pack.single_filter.initialize] - verifiled login page
-2019-08-29 17:22:22,779 [bac_pack.single_filter.singlefilter] - Successfully applied the Register status filter
-2019-08-29 17:23:27,629 [bac_pack.single_filter.singlefilter] - Successfully stored all records into Arraylist
-2019-08-29 17:23:27,780 [bac_pack.single_filter.singlefilter] - verified filtered records
-2019-08-29 17:23:27,780 [bac_pack.single_filter.singlefilter] - verified count values
-2019-08-29 17:24:45,364 [bac_pack.single_filter.initialize] - Successfully launched URL
-2019-08-29 17:24:47,270 [bac_pack.single_filter.initialize] - Successfully login into the application
-2019-08-29 17:25:02,430 [bac_pack.single_filter.initialize] - verifiled login page
-2019-08-29 17:31:05,384 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Driver initialized successfully
-2019-08-29 17:31:20,293 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - successfully launched URL
-2019-08-29 17:31:20,738 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Entered email address
-2019-08-29 17:31:20,933 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Entered password
-2019-08-29 17:31:21,077 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Hit the login button
-2019-08-29 17:31:28,315 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Successfully validate the Role
-2019-08-29 17:31:34,590 [bac_pack.Common_Functionalities.search] - Customers Module validated Search functionality
-2019-08-29 17:31:40,588 [bac_pack.Common_Functionalities.search] - Trucks Module validated Search functionality
-2019-08-29 17:31:45,414 [bac_pack.Common_Functionalities.search] - Products Module validated Search functionality
-2019-08-29 17:31:50,834 [bac_pack.Common_Functionalities.search] - Yards Module validated Search functionality
-2019-08-29 17:31:55,969 [bac_pack.Common_Functionalities.search] - Users Module validated Search functionality
-2019-08-29 17:32:14,670 [bac_pack.Login_Functionality.loginvalidation] - Driver initialized successfully
-2019-08-29 17:32:20,534 [bac_pack.Login_Functionality.loginvalidation] - successfully launched URL
-2019-08-29 17:32:20,835 [bac_pack.Login_Functionality.loginvalidation] - Entered email address
-2019-08-29 17:32:21,007 [bac_pack.Login_Functionality.loginvalidation] - Entered password
-2019-08-29 17:32:21,152 [bac_pack.Login_Functionality.loginvalidation] - Hit the login button
-2019-08-29 17:32:28,199 [bac_pack.Login_Functionality.loginvalidation] - Successfully validate the Role
-2019-08-29 17:32:30,946 [bac_pack.Login_Functionality.loginvalidation] - Driver initialized successfully
-2019-08-29 17:32:41,181 [bac_pack.Login_Functionality.loginvalidation] - successfully launched URL
-2019-08-29 17:32:41,513 [bac_pack.Login_Functionality.loginvalidation] - Entered email address
-2019-08-29 17:32:41,744 [bac_pack.Login_Functionality.loginvalidation] - Entered password
-2019-08-29 17:32:41,924 [bac_pack.Login_Functionality.loginvalidation] - Hit the login button
-2019-08-29 17:32:49,793 [bac_pack.Login_Functionality.loginvalidation] - Successfully validate the Role
-2019-08-29 17:37:26,327 [bac_pack.single_filter.initialize] - Successfully launched URL
-2019-08-29 17:37:28,499 [bac_pack.single_filter.initialize] - Successfully login into the application
-2019-08-29 17:37:41,793 [bac_pack.single_filter.initialize] - verifiled login page
-2019-08-29 17:37:46,649 [bac_pack.single_filter.singlefilter] - Successfully applied the Register status filter
-2019-08-29 17:38:53,153 [bac_pack.single_filter.singlefilter] - Successfully stored all records into Arraylist
-2019-08-29 17:38:53,266 [bac_pack.single_filter.singlefilter] - verified filtered records
-2019-08-29 17:38:53,266 [bac_pack.single_filter.singlefilter] - verified count values
-2019-08-29 17:42:20,612 [bac_pack.single_filter.initialize] - Successfully launched URL
-2019-08-29 17:42:22,740 [bac_pack.single_filter.initialize] - Successfully login into the application
-2019-08-29 17:42:39,966 [bac_pack.single_filter.initialize] - verifiled login page
-2019-08-29 17:48:39,596 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Driver initialized successfully
-2019-08-29 17:48:45,782 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - successfully launched URL
-2019-08-29 17:48:46,232 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Entered email address
-2019-08-29 17:48:46,472 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Entered password
-2019-08-29 17:48:46,663 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Hit the login button
-2019-08-29 17:48:54,752 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Successfully validate the Role
-2019-08-29 17:49:02,110 [bac_pack.Common_Functionalities.search] - Customers Module validated Search functionality
-2019-08-29 17:49:10,319 [bac_pack.Common_Functionalities.search] - Trucks Module validated Search functionality
-2019-08-29 17:49:20,276 [bac_pack.Common_Functionalities.search] - Products Module validated Search functionality
-2019-08-29 17:49:34,534 [bac_pack.Common_Functionalities.search] - Yards Module validated Search functionality
-2019-08-29 17:49:42,460 [bac_pack.Common_Functionalities.search] - Users Module validated Search functionality
-2019-08-29 17:50:00,320 [bac_pack.Login_Functionality.loginvalidation] - Driver initialized successfully
-2019-08-29 17:50:08,111 [bac_pack.Login_Functionality.loginvalidation] - successfully launched URL
-2019-08-29 17:50:08,469 [bac_pack.Login_Functionality.loginvalidation] - Entered email address
-2019-08-29 17:50:08,647 [bac_pack.Login_Functionality.loginvalidation] - Entered password
-2019-08-29 17:50:08,885 [bac_pack.Login_Functionality.loginvalidation] - Hit the login button
-2019-08-29 17:50:19,010 [bac_pack.Login_Functionality.loginvalidation] - Successfully validate the Role
-2019-08-29 17:50:24,484 [bac_pack.Login_Functionality.loginvalidation] - Driver initialized successfully
-2019-08-29 17:50:31,318 [bac_pack.Login_Functionality.loginvalidation] - successfully launched URL
-2019-08-29 17:50:31,648 [bac_pack.Login_Functionality.loginvalidation] - Entered email address
-2019-08-29 17:50:31,823 [bac_pack.Login_Functionality.loginvalidation] - Entered password
-2019-08-29 17:50:31,979 [bac_pack.Login_Functionality.loginvalidation] - Hit the login button
-2019-08-29 17:50:40,506 [bac_pack.Login_Functionality.loginvalidation] - Successfully validate the Role
+2019-08-30 16:30:33,049 [bac_pack.Filter.initialize] - Successfully launched URL
+2019-08-30 16:30:39,675 [bac_pack.Filter.initialize] - Successfully login into the application
+2019-08-30 16:30:55,051 [bac_pack.Filter.initialize] - verifiled login page
+2019-08-30 16:35:04,815 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Driver initialized successfully
+2019-08-30 16:35:10,582 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - successfully launched URL
+2019-08-30 16:35:11,401 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Entered email address
+2019-08-30 16:35:12,121 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Entered password
+2019-08-30 16:35:12,563 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Hit the login button
+2019-08-30 16:35:20,239 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Successfully validate the Role
+2019-08-30 16:35:29,742 [bac_pack.Common_Functionalities.search] - Customers Module validated Search functionality
+2019-08-30 16:35:39,022 [bac_pack.Common_Functionalities.search] - Trucks Module validated Search functionality
+2019-08-30 16:35:47,296 [bac_pack.Common_Functionalities.search] - Products Module validated Search functionality
+2019-08-30 16:35:52,831 [bac_pack.Common_Functionalities.search] - Yards Module validated Search functionality
+2019-08-30 16:35:58,473 [bac_pack.Common_Functionalities.search] - Users Module validated Search functionality
+2019-08-30 16:36:13,370 [bac_pack.Login_Functionality.loginvalidation] - Driver initialized successfully
+2019-08-30 16:36:19,507 [bac_pack.Login_Functionality.loginvalidation] - successfully launched URL
+2019-08-30 16:36:19,837 [bac_pack.Login_Functionality.loginvalidation] - Entered email address
+2019-08-30 16:36:20,006 [bac_pack.Login_Functionality.loginvalidation] - Entered password
+2019-08-30 16:36:20,190 [bac_pack.Login_Functionality.loginvalidation] - Hit the login button
+2019-08-30 16:36:28,323 [bac_pack.Login_Functionality.loginvalidation] - Successfully validate the Role
+2019-08-30 16:36:30,808 [bac_pack.Login_Functionality.loginvalidation] - Driver initialized successfully
+2019-08-30 16:36:39,640 [bac_pack.Login_Functionality.loginvalidation] - successfully launched URL
+2019-08-30 16:36:40,122 [bac_pack.Login_Functionality.loginvalidation] - Entered email address
+2019-08-30 16:36:40,350 [bac_pack.Login_Functionality.loginvalidation] - Entered password
+2019-08-30 16:36:40,536 [bac_pack.Login_Functionality.loginvalidation] - Hit the login button
+2019-08-30 16:36:48,776 [bac_pack.Login_Functionality.loginvalidation] - Successfully validate the Role
+2019-08-30 16:39:24,741 [bac_pack.Filter.initialize] - Successfully launched URL
+2019-08-30 16:39:28,341 [bac_pack.Filter.initialize] - Successfully login into the application
+2019-08-30 16:39:50,807 [bac_pack.Filter.initialize] - verifiled login page
+2019-08-30 16:46:17,453 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Driver initialized successfully
+2019-08-30 16:46:25,828 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - successfully launched URL
+2019-08-30 16:46:26,313 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Entered email address
+2019-08-30 16:46:26,511 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Entered password
+2019-08-30 16:46:26,695 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Hit the login button
+2019-08-30 16:46:37,580 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Successfully validate the Role
+2019-08-30 16:46:45,579 [bac_pack.Common_Functionalities.search] - Customers Module validated Search functionality
+2019-08-30 16:46:52,616 [bac_pack.Common_Functionalities.search] - Trucks Module validated Search functionality
+2019-08-30 16:46:59,396 [bac_pack.Common_Functionalities.search] - Products Module validated Search functionality
+2019-08-30 16:47:06,055 [bac_pack.Common_Functionalities.search] - Yards Module validated Search functionality
+2019-08-30 16:47:13,129 [bac_pack.Common_Functionalities.search] - Users Module validated Search functionality
+2019-08-30 16:47:28,061 [bac_pack.Login_Functionality.loginvalidation] - Driver initialized successfully
+2019-08-30 16:47:37,388 [bac_pack.Login_Functionality.loginvalidation] - successfully launched URL
+2019-08-30 16:47:37,761 [bac_pack.Login_Functionality.loginvalidation] - Entered email address
+2019-08-30 16:47:38,051 [bac_pack.Login_Functionality.loginvalidation] - Entered password
+2019-08-30 16:47:38,282 [bac_pack.Login_Functionality.loginvalidation] - Hit the login button
+2019-08-30 16:47:58,115 [bac_pack.Login_Functionality.loginvalidation] - Successfully validate the Role
+2019-08-30 16:48:04,892 [bac_pack.Login_Functionality.loginvalidation] - Driver initialized successfully
+2019-08-30 16:48:13,054 [bac_pack.Login_Functionality.loginvalidation] - successfully launched URL
+2019-08-30 16:48:13,429 [bac_pack.Login_Functionality.loginvalidation] - Entered email address
+2019-08-30 16:48:13,683 [bac_pack.Login_Functionality.loginvalidation] - Entered password
+2019-08-30 16:48:13,885 [bac_pack.Login_Functionality.loginvalidation] - Hit the login button
+2019-08-30 16:48:31,084 [bac_pack.Login_Functionality.loginvalidation] - Successfully validate the Role
+2019-08-30 16:52:04,266 [bac_pack.Filter.initialize] - Successfully launched URL
+2019-08-30 16:52:06,220 [bac_pack.Filter.initialize] - Successfully login into the application
+2019-08-30 16:52:26,542 [bac_pack.Filter.initialize] - verifiled login page
+2019-08-30 16:52:32,348 [bac_pack.Filter.singlefilter] - Successfully applied the Register status filter
+2019-08-30 16:57:26,141 [bac_pack.Filter.initialize] - Successfully launched URL
+2019-08-30 16:57:28,155 [bac_pack.Filter.initialize] - Successfully login into the application
+2019-08-30 16:57:39,498 [bac_pack.Filter.initialize] - verifiled login page
+2019-08-30 16:57:45,393 [bac_pack.Filter.singlefilter] - Successfully applied the Register status filter
+2019-08-30 16:59:30,873 [bac_pack.Filter.singlefilter] - Successfully stored all records into Arraylist
+2019-08-30 16:59:31,003 [bac_pack.Filter.singlefilter] - verified filtered records
+2019-08-30 16:59:31,006 [bac_pack.Filter.singlefilter] - verified count values
+2019-08-30 17:23:15,770 [bac_pack.Filter.initialize] - Successfully launched URL
+2019-08-30 17:23:26,971 [bac_pack.Filter.initialize] - Successfully login into the application
+2019-08-30 17:23:44,555 [bac_pack.Filter.initialize] - verifiled login page
+2019-08-30 17:23:50,718 [bac_pack.Filter.singlefilter] - Successfully applied the Register status filter
+2019-08-30 17:34:13,425 [bac_pack.Filter.initialize] - Successfully launched URL
+2019-08-30 17:34:15,667 [bac_pack.Filter.initialize] - Successfully login into the application
+2019-08-30 17:34:34,460 [bac_pack.Filter.initialize] - verifiled login page
+2019-08-30 17:40:51,687 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Driver initialized successfully
+2019-08-30 17:41:00,218 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - successfully launched URL
+2019-08-30 17:41:01,082 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Entered email address
+2019-08-30 17:41:01,355 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Entered password
+2019-08-30 17:41:01,493 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Hit the login button
+2019-08-30 17:41:12,448 [bac_pack.Login_Functionality.Login_SuperAdminvalidation] - Successfully validate the Role
+2019-08-30 17:41:21,058 [bac_pack.Common_Functionalities.search] - Customers Module validated Search functionality
+2019-08-30 17:41:28,617 [bac_pack.Common_Functionalities.search] - Trucks Module validated Search functionality
+2019-08-30 17:41:35,927 [bac_pack.Common_Functionalities.search] - Products Module validated Search functionality
+2019-08-30 17:41:45,683 [bac_pack.Common_Functionalities.search] - Yards Module validated Search functionality
+2019-08-30 17:41:52,951 [bac_pack.Common_Functionalities.search] - Users Module validated Search functionality
+2019-08-30 17:42:14,959 [bac_pack.Login_Functionality.loginvalidation] - Driver initialized successfully
+2019-08-30 17:42:30,514 [bac_pack.Login_Functionality.loginvalidation] - successfully launched URL
+2019-08-30 17:42:31,090 [bac_pack.Login_Functionality.loginvalidation] - Entered email address
+2019-08-30 17:42:31,455 [bac_pack.Login_Functionality.loginvalidation] - Entered password
+2019-08-30 17:42:31,662 [bac_pack.Login_Functionality.loginvalidation] - Hit the login button
+2019-08-30 17:42:43,344 [bac_pack.Login_Functionality.loginvalidation] - Successfully validate the Role
+2019-08-30 17:42:52,222 [bac_pack.Login_Functionality.loginvalidation] - Driver initialized successfully
+2019-08-30 17:43:07,216 [bac_pack.Login_Functionality.loginvalidation] - successfully launched URL
+2019-08-30 17:43:07,668 [bac_pack.Login_Functionality.loginvalidation] - Entered email address
+2019-08-30 17:43:07,871 [bac_pack.Login_Functionality.loginvalidation] - Entered password
+2019-08-30 17:43:08,019 [bac_pack.Login_Functionality.loginvalidation] - Hit the login button
+2019-08-30 17:43:18,593 [bac_pack.Login_Functionality.loginvalidation] - Successfully validate the Role
+2019-08-30 17:49:45,525 [bac_pack.Filter.initialize] - Successfully launched URL
+2019-08-30 17:49:52,861 [bac_pack.Filter.initialize] - Successfully login into the application
+2019-08-30 17:50:08,750 [bac_pack.Filter.initialize] - verifiled login page
+2019-08-30 17:51:44,683 [bac_pack.Filter.initialize] - Successfully launched URL
+2019-08-30 17:51:46,640 [bac_pack.Filter.initialize] - Successfully login into the application
+2019-08-30 17:52:03,428 [bac_pack.Filter.initialize] - verifiled login page
+2019-08-30 17:52:10,184 [bac_pack.Filter.singlefilter] - Successfully applied the Register status filter
+2019-08-30 17:53:19,152 [bac_pack.Filter.initialize] - Successfully launched URL
+2019-08-30 17:53:21,436 [bac_pack.Filter.initialize] - Successfully login into the application
+2019-08-30 17:53:37,255 [bac_pack.Filter.initialize] - verifiled login page
+2019-08-30 17:53:44,114 [bac_pack.Filter.singlefilter] - Successfully applied the Register status filter

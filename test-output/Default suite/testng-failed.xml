@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="bac_pack.single_filter">
+      <class name="bac_pack.Filter">
         <methods>
           <include name="initialize"/>
           <include name="singlefilter"/>
         </methods>
-      </class> <!-- bac_pack.single_filter -->
+      </class> <!-- bac_pack.Filter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
