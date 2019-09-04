@@ -10,6 +10,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
@@ -45,13 +46,15 @@ public class Filter extends Base{
 	@Test
 	public void singlefilter() throws InterruptedException
 		{
-		Thread.sleep(2000);
-		driver.findElement(By.xpath("//span[@class='add icon-plus']")).click();
-		String label=driver.findElement(By.xpath("//div[@class='fil_heading']")).getText();
 		
-		 Select dropdown=new Select(driver.findElement(By.xpath("//select[@id='filter_type']")));
-		 
-		 dropdown.selectByVisibleText("Registered");
+		WebElement element = driver.findElement(By.xpath("//span[@class='add icon-plus']"));
+		Actions actions = new Actions(driver);
+		actions.moveToElement(element).click().perform();
+					
+		String label=driver.findElement(By.xpath("//div[@class='fil_heading']")).getText();
+		Thread.sleep(2000);
+		Select dropdown=new Select(driver.findElement(By.xpath("//*[@id='filter_type']")));
+		dropdown.selectByIndex(1);
 		
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//input[@id='filter_del_submit']")).click();
@@ -62,28 +65,22 @@ public class Filter extends Base{
 		System.out.println(columncount);   
 		for(int i=0;i<columncount;i++)
 		{
-			
-		
 		String name=driver.findElements(By.xpath("//thead/tr/th")).get(i).getText();
-		//System.out.println(name);
 		if(name.equals(label))
 		{
-			System.out.println("both are same"+i);
-		
-			while (true) 
-			{
-				CustomersPage p = new CustomersPage(driver);
-				String name1 = p.Arrow().getAttribute("class");	
+		System.out.println("both are same"+i);
+		while (true) 
+		{
+			CustomersPage p = new CustomersPage(driver);
+			String name1 = p.Arrow().getAttribute("class");	
 			
 			List<WebElement> Rows = driver.findElements(By.xpath("//tr"));
 			int size=Rows.size(); //10
 			//System.out.println(size);
 			Thread.sleep(3000);
 			for (int j=1; j<size; j++) //10
-			  { 
-			//find the columns in specific row
-				
-				 List<WebElement> Columns = Rows.get(j).findElements(By.xpath("//tr"+"["+ j +"]"+"//td"));
+			  { //find the columns in specific row
+			List<WebElement> Columns = Rows.get(j).findElements(By.xpath("//tr"+"["+ j+"]"+"//td"));
 			Filterlist.add(Columns.get(i).getText());
 			Iterator it = Columns.iterator(); // name is present
 			while (it.hasNext()) // next element is present or not
@@ -108,22 +105,13 @@ public class Filter extends Base{
 		
 		String count=driver.findElement(By.xpath("//span[@id='total_result_count']")).getText().replaceAll("[\\(){}]","");
 	    Integer countvalue=Integer.parseInt(count);
-		//System.out.println(countvalue);
-		
 		System.out.println("Array list size "+Filterlist.size());
 			 for(int i=0;i<Filterlist.size();i++)
 				{
-				
-					//System.out.println(Actual.get(i));
-					
 					Assert.assertEquals(o,(Filterlist.get(i)));
-					
-					
 				}
 				log.info("verified filtered records");
 		    Assert.assertTrue(countvalue.equals(Filterlist.size()));
 			log.info("verified count values");
-								 
-		}
-			
-}
+				}
+			}

@@ -51,7 +51,7 @@ public class Sorting_functionality extends Base {
 		for(int i=0;i<columncount;i++)
 		{
 			
-		System.out.println("getattribute"+i+" "+driver.findElements(By.xpath("//thead/tr/th")).get(i).getAttribute("class"));
+		//System.out.println("getattribute"+i+" "+driver.findElements(By.xpath("//thead/tr/th")).get(i).getAttribute("class"));
 		String name=driver.findElements(By.xpath("//thead/tr/th")).get(i).getAttribute("class");
 //checks sorting option is present or not
 		if(name.endsWith("sorting"))
